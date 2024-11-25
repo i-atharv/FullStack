@@ -1,0 +1,35 @@
+/* Header.css */
+header {
+    background-color: #076a8e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+.site-title{
+    color: #469d6d;
+}
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+/* Header.css */
+header nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none; /* Ensure no underline */
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #469d6d;
+    text-decoration: none; /* Ensure no underline on hover */
+  }
